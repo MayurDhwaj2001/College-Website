@@ -1,0 +1,310 @@
+a:link {
+  text-decoration: none;
+}
+
+.box
+{
+    margin: auto;
+    margin-top: 5%;
+    width: 30%;
+    border: 2px solid rgb(13, 110, 253);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 20px;
+}
+
+img
+{
+    width: 300px;
+}
+
+#navbarNavAltMarkup
+{
+    margin-left: 68%;
+}
+
+.notice
+{
+  margin-top: 10px;
+  height: 300px;
+  width: 50%; 
+  display: inline-block;
+}
+
+.notice marquee
+{
+  width: 98%;
+  height: 256px;
+}
+
+.notice h3
+{
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+}
+
+.youtube
+{
+  background-image: url("../Resources/College.png");
+  background-repeat: no-repeat;
+  background-size: 700px;
+  margin-top: 10px;
+  height: 300px;
+  width: 50%;
+  display: inline-block;
+}
+
+.youtube h3
+{
+  margin-top: 16%;
+  margin-left: 30%;
+  color: rgb(255, 174, 0);
+}
+
+.youtube h4
+{
+
+  margin-left: 30%;
+  color: rgb(255, 255, 255);
+}
+
+.youtube svg
+{
+  color: aliceblue;
+  margin-left: 25%;
+  
+}
+
+.media
+{
+  display: flex;
+  flex-direction:row;
+}
+
+.footer
+{
+  width: 100%;
+  background-color: grey;
+  display: block;
+  flex-direction: column;
+  margin-bottom: 0px;
+  color: rgb(255, 174, 0);
+  text-align: center;
+}
+
+.contact svg
+{
+  color: rgb(255, 174, 0);
+}
+
+.contact
+{
+  margin-top: 10px;
+  width: 80%;
+  flex-direction:row;
+  display:inline-block;
+}
+
+.contact p
+{
+  margin-bottom: 0px;
+}
+
+.bg
+{
+  /* background-image: url("../Resources/College.png");
+  width: auto; */
+  padding: 5% 5%;
+} 
+
+.socialmedia
+{
+  height: 100%;
+  flex-direction:row;
+  width: 19%;
+  display:inline-block;
+
+}
+
+.socialli
+{
+  list-style: none;
+  text-align: center;
+}
+
+.fa-facebook , .fa-twitter , .fa-instagram
+{
+  color: rgb(255, 174, 0);
+  font-size: 30px;
+}
+
+.about
+{
+  background-color: rgb(209, 209, 209);
+}
+
+.boxn
+{
+    /* margin: auto; */
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    /* border: 2px solid rgb(13, 110, 253); */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+.mediaa
+{
+  display: flex;
+  flex-direction:row;
+}
+
+.mediaa h3
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+} 
+
+.noticea
+{
+  width: 90%;
+  /* border-right: 2px solid rgb(0, 0, 0); */
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  /* height: 300px; */
+  width: 50%; 
+  display: inline-block;
+}
+
+.form-control{
+  resize: none;
+}
+
+.student
+{
+  /* margin-left: 20px; */
+  background-size: 700px;
+  margin-top: 10px;
+  /* height: 300px; */
+  width: 50%;
+  display: inline-block;
+}
+
+
+.message
+{
+  position: absolute;
+  text-align: center;
+  margin-top: -500px;
+  margin-left: 40%;
+  width: 20%;
+  background-color: rgb(13, 110, 253);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.fa-circle-check
+{
+  color: rgb(255, 255, 255);
+}
+
+#error
+{
+  position: absolute;
+  text-align: center;
+  margin-top: -500px;
+  margin-left: 40%;
+  width: 20%;
+  background-color: rgb(255, 50, 50);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.output
+{
+  margin-left: 20px;
+  background-size: 700px;
+  margin-top: 10px;
+  /* height: 300px; */
+  width: 50%;
+  display: inline-block;
+}
+
+.php
+{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.querry
+{
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.alter
+{
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/*  */
+.form-select
+{
+  width: 20px;
+}
+
+.r1
+{
+  display: flex;
+  direction: row;
+}
+
+.c1
+{
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 50%;
+}
+
+.c2
+{ padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  width: 50%;
+}
+
+.c1 img 
+{
+
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.c img 
+{
+
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+ .r1{
+  padding-top: 10px
+ }

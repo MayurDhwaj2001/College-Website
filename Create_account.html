@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/login.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Create Account</title>
+</head>
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+          <a  href="#"><img class="logo" src="Resources/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="Index.php">Home</a>
+                <!-- <a class="nav-link active" aria-current="page" href="Login.html">Login</a> -->
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </div>
+      </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <h5 id="accountCreated" class="message"><i class="fa-solid"></i> Account Created</h5>                   <!-- Notice popup -->
+
+    <!-- Form start -->
+    <div class="box">
+        <form action="php/Create_account.php" method="get" target="_blank">
+            <div class="mb-3">
+              <label for="InputName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="InputName" name="Name" aria-describedby="emailHelp" autocomplete="off">
+            </div>
+
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">University Roll no.</label>
+              <input type="text" class="form-control" name="Id" id="InputEmail" autocomplete="off">
+            </div>
+
+            <div class="mb-3">
+              <label for="InputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" name="Password" id="InputPassword" autocomplete="off">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary" onclick="accountCreated()" >Save</button>
+            <a href="Login.html" class="btn btn-primary">Back</a>
+        </form>
+    </div>
+
+    <!-- Form End -->
+
+    <!-- PHP  BEGIN-->
+   
+    <!-- PHP  END-->
+</body>
+<script src="js/javascript.js"></script>  <!--  JS -->
+</html>
