@@ -1,0 +1,39 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+CREATE DATABASE website;
+
+USE website;
+
+CREATE TABLE `adminn` (
+  `SId` varchar(20) NOT NULL,
+  `SPassword` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+INSERT INTO `adminn` (`SId`, `SPassword`) VALUES
+('admin', '123'),
+('admin', '123');
+
+
+CREATE TABLE `notice` (
+  `Notice` varchar(200) NOT NULL,
+  `Date` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE `student` (
+  `SName` varchar(20) NOT NULL,
+  `SId` varchar(10) NOT NULL,
+  `SPassword` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+INSERT INTO `student` (`SName`, `SId`, `SPassword`) VALUES
+('mayur', '19', '123');
+
+
+ALTER TABLE `student`
+  ADD PRIMARY KEY (`SId`);
+COMMIT;
