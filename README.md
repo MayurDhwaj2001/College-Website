@@ -1,7 +1,7 @@
 This is a college website
 
 # Form will not work because it's built using php
-https://htmlpreview.github.io/?https://github.com/MayurDhwaj2001/College-Website/blob/main/Index.php
+https://mayurdhwaj2001.github.io/College-Website/
 
 Admin's id is admin and password is 123 
 
