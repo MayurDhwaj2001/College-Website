@@ -1,4 +1,4 @@
-# use this link to open website 👇
+# Use this link to open website 👇
 https://htmlpreview.github.io/?https://github.com/MayurDhwaj2001/College-Website/blob/main/Index.php
 
 Admin's id is admin and password is 123 
